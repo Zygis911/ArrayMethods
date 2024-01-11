@@ -8,3 +8,12 @@ function intOrString(input) {
 
 console.log(intOrString(6))
 console.log(intOrString("fsd"))
+
+
+
+function intOrStringV2(input) {
+  return (typeof input === 'number') ? "num" : "str";
+}
+
+console.log(intOrString(6))
+console.log(intOrString("fsd"))
